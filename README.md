@@ -5,11 +5,11 @@ This is the companion repo for our 5th Snacks & Hacks meetup
 
 The following command will build an image with the tag snacks-hacks-openpose:latest. There are 2 flavors, CPU or GPU (Cuda10):
 
-`docker build -t snacks-hacks-openpose:latest https://github.com/Anchormen/snacks-hacks-openpose/raw/master/Dockerfile.cpu`
+`docker build -t snacks-hacks-openpose:latest docker build -t poselogoslap:latest https://raw.githubusercontent.com/Anchormen/snacks-hacks-openpose/{BRANCH}/Dockerfile.cpu`
 
 or for GPU:
 
-`docker build -t snacks-hacks-openpose:latest https://github.com/Anchormen/snacks-hacks-openpose/raw/master/Dockerfile.cuda10_1.gpu`
+`docker build -t snacks-hacks-openpose:latest https://raw.githubusercontent.com/Anchormen/snacks-hacks-openpose/{BRANCH}/Dockerfile.cuda10_1.gpu`
 
 # How to run
 
