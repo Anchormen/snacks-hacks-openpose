@@ -29,7 +29,7 @@ The following part: `/tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY`, is for 
 
 Now you should be in the container's shell.
 
-Start the game:
+Start the demo:
 
-`python3 game.py`
+`python3 demo.py`
 
